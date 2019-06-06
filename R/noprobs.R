@@ -45,7 +45,7 @@ no_problem <- function(expr, .result_col = ".result") {
     warning =  handle_warning,
     message = handle_message)
 
-  tibble::tibble(!!result_col := list(result),
+  tibble::tibble(!!.result_col := list(result),
                  .warnings = warnings,
                  .messages = messages,
                  .errors = errors

@@ -1,0 +1,13 @@
+Package: noprobs
+Title: Get tidy error output from expressions
+Version: 0.0.0.9000
+Authors@R: person("Miles", "McBain", email = "miles.mcbain@gmail.com", role = c("aut", "cre"))
+Description: Get error data from an expression that is compatible with tidy modeling pipelines and can be easily unnested into a results tibble to be inspected.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tibble,
+    purrr
+RoxygenNote: 6.1.1
